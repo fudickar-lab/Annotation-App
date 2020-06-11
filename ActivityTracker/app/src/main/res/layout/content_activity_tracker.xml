@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:context="com.university.oldenburg.mamksfzactivitytracker.ActivityTrackerActivity" tools:showIn="@layout/activity_activity_tracker">
+
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/table">
+
+        <TableRow>
+            <Button android:id="@+id/button_home" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="home" android:text="@string/home"/>
+            <Button android:id="@+id/button_outside" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="outside" android:text="@string/outside"/>
+            <Button android:id="@+id/button_inside" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="inside" android:text="@string/inside"/>
+        </TableRow>
+
+        <TableRow android:layout_height="0dp" android:layout_weight="1">
+            <com.university.oldenburg.mamksfzactivitytracker.VerticalTextView
+                android:id="@+id/dynamic_Movement2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_horizontal" android:text="@string/dynamic_movement"/>
+            <Button android:id="@+id/button_walking_backwards" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/walking_backwards" android:background="@drawable/button_walking_backwards" android:textColor="@color/white" android:onClick="walking_backwards"/>
+            <Button android:id="@+id/button_jumping" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/jumping" android:background="@drawable/button_jumping" android:textColor="@color/white" android:onClick="jumping"/>
+            <Button android:id="@+id/button_stairs_down" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/stairs_down" android:background="@drawable/button_stairs_down" android:textColor="@color/white" android:onClick="stairs_down"/>
+            <Button android:id="@+id/button_unknown" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/other" android:background="@drawable/button_other" android:textColor="@color/white" android:onClick="other"/>
+        </TableRow>
+        <TableRow android:layout_height="0dp" android:layout_weight="1">
+            <com.university.oldenburg.mamksfzactivitytracker.VerticalTextView
+                android:id="@+id/dynamic_Movement" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_horizontal" android:text="@string/dynamic_movement"/>
+            <Button android:id="@+id/button_walking" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/walking" android:background="@drawable/button_walking" android:textColor="@color/white" android:onClick="walking"/>
+            <Button android:id="@+id/button_turning" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/turning" android:background="@drawable/button_turning" android:textColor="@color/white" android:onClick="turning"/>
+            <Button android:id="@+id/button_stairs" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/stairs" android:background="@drawable/button_stairs" android:textColor="@color/white" android:onClick="stairs"/>
+            <Button android:id="@+id/button_crouching" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/crouching" android:background="@drawable/button_crouching" android:textColor="@color/white" android:onClick="crouching"/>
+        </TableRow>
+        <TableRow android:layout_height="0dp" android:layout_weight="1">
+            <com.university.oldenburg.mamksfzactivitytracker.VerticalTextView
+                android:id="@+id/static_Movement" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_horizontal" android:text="@string/static_movement"/>
+            <Button android:id="@+id/button_standing" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/standing" android:background="@drawable/button_standing" android:textColor="@color/white" android:onClick="standing"/>
+            <Button android:id="@+id/button_sitting" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/sitting" android:background="@drawable/button_sitting" android:textColor="@color/white" android:onClick="sitting"/>
+            <Button android:id="@+id/button_lying" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/lying" android:background="@drawable/button_lying" android:textColor="@color/white" android:onClick="lying"/>
+            <Button android:id="@+id/button_lying_side" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/lying_side" android:background="@drawable/button_lying_side" android:textColor="@color/white" android:onClick="lying_side"/>
+        </TableRow>
+        <TableRow android:layout_height="0dp" android:layout_weight="1">
+            <com.university.oldenburg.mamksfzactivitytracker.VerticalTextView
+                android:id="@+id/transition" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_horizontal" android:text="@string/transition"/>
+            <Button android:id="@+id/button_stand_up" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/stand_up" android:background="@drawable/button_stand_up" android:textColor="@color/white" android:onClick="standup"/>
+            <Button android:id="@+id/button_sit_down" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/sit_down" android:background="@drawable/button_sit_down" android:textColor="@color/white" android:onClick="sitdown"/>
+            <Button android:id="@+id/button_lie_sit" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/lie_sit" android:background="@drawable/button_lie_sit" android:textColor="@color/white" android:onClick="lie_sit"/>
+            <Button android:id="@+id/button_sit_lie" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3" android:text="@string/sit_lie" android:background="@drawable/button_sit_lie" android:textColor="@color/white" android:onClick="sit_lie"/>
+        </TableRow>
+        <TableRow>
+            <Button android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="stop" android:text="@string/stop"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

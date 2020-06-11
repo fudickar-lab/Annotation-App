@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabelingApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="proband_id">ID</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="title_activity_activity_tracker">LabelingApp</string>
+    <string name="inside">inside</string>
+    <string name="outside">outside</string>
+    <string name="home">home</string>
+    <string name="delete">delete</string>
+    <string name="backFromDeletion">back</string>
+    <string name="title_activity_delete_activities">delete</string>
+    <string name="new_Measurement">Does the label data belong to a new measurement?</string>
+    <string name="measurment">New Measurement?</string>
+    <string name="back">delete</string>
+    <string name="no_activity_chosen">No activity chosen</string>
+    <string name="no_activity_given">Please insert an activity!</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+    <string name="activity">activity</string>
+    <string name="name_activity">insert activity</string>
+    <string name="transition">transition</string>
+    <string name="dynamic_movement">dynamic</string>
+    <string name="static_movement">static</string>
+    <string name="other">%1$d times  others  %2$d min</string>
+    <string name="lie_sit">%1$d times  lie-sit  %2$d min</string>
+    <string name="sit_lie">%1$d times  sit-lie  %2$d min</string>
+    <string name="sit_down">%1$d times  sit-down  %2$d min</string>
+    <string name="stand_up">%1$d times stand up   %2$d min</string>
+    <string name="turning">%1$d times  turning  %2$d min</string>
+    <string name="crouching">%1$d times  crouching  %2$d min</string>
+    <string name="lying_side">%1$d times  lying side  %2$d min</string>
+    <string name="lying">%1$d times  lying  %2$d min</string>
+    <string name="sitting">%1$d times  sitting  %2$d min</string>
+    <string name="standing">%1$d times  standing  %2$d min</string>
+    <string name="jumping">%1$d times  jumping  %2$d min</string>
+    <string name="stairs_down">%1$d times  downstairs  %2$d min</string>
+    <string name="stairs">%1$d times  upstairs  %2$d min</string>
+    <string name="walking_backwards">%1$d times  walking backwards  %2$d min</string>
+    <string name="walking">%1$d times  walking  %2$d min</string>
+</resources>

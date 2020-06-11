@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/shape_walking">
+        <shape android:shape="rectangle">
+            <stroke android:width="2dp" android:color="#ffffff"/>
+            <solid android:color="@color/red_Background" />
+        </shape>
+
+    </item>
+    <item android:drawable="@drawable/arrow_up"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+</layer-list>
